@@ -23,7 +23,19 @@ config.keys = {
     key = 'e',
     mods = 'CTRL|ALT',
     action = act.SendString('export GCM_CREDENTIAL_STORE=cache\n'),
+  },
+  {
+    key = 'l',
+    mods = 'CTRL|ALT',
+    action = act.SendString('cd Documents/WebDevCourse/WebApplications/LatestApp\n'),
+  },
+  {
+    key = 'c',
+    mods = 'CTRL|ALT|SHIFT',
+    action = act.SendString('realpath FILE | xclip -selection clipboard'),
   }
+
+
 
 }
 return config
