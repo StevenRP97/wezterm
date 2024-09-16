@@ -12,12 +12,17 @@ config.keys = {
   {
     key = 'w',
     mods = 'CTRL|ALT',
-    action = act.SendString('cd .config/wezterm\n'),
+    action = act.SendString('cd $HOME/.config/wezterm\n'),
   },
   {
     key = 'v',
     mods = 'CTRL|ALT',
-    action = act.SendString('cd .config/nvim\n'),
+    action = act.SendString('cd $HOME/.config/nvim\n'),
+  },
+  {
+    key = 'e',
+    mods = 'CTRL|ALT',
+    action = act.SendString('export GCM_CREDENTIAL_STORE=cache\n'),
   }
 
 }
