@@ -27,7 +27,7 @@ config.keys = {
   {
     key = 'l',
     mods = 'CTRL|ALT',
-    action = act.SendString('cd Documents/DevProjects/WebApplications\n'),
+    action = act.SendString('cd $HOME/Documents/DevProjects/WebApplications\n'),
   },
   {
     key = 'c',
