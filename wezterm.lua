@@ -1,3 +1,5 @@
+-- This are the settings for Wez Terminal 
+
 local wezterm = require 'wezterm'
 local config = {}
 local act = wezterm.action
