@@ -37,7 +37,5 @@ config.keys = {
     action = act.SendString('realpath FILE | xclip -selection clipboard'),
   }
 
-
-
 }
 return config
