@@ -1,5 +1,4 @@
 -- This are the settings for Wez Terminal 
-
 local wezterm = require 'wezterm'
 local config = {}
 local act = wezterm.action
@@ -35,6 +34,11 @@ config.keys = {
     key = 'c',
     mods = 'CTRL|ALT|SHIFT',
     action = act.SendString('realpath FILE | xclip -selection clipboard'),
+  },
+  {
+    key = 'k',
+    mods = 'CTRL|ALT',
+    action = act.SendString('clear\n'),
   }
 
 }
