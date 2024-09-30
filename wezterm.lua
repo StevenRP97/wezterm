@@ -39,6 +39,16 @@ config.keys = {
     key = 'k',
     mods = 'CTRL|ALT',
     action = act.SendString('clear\n'),
+  },
+  {
+    key = 'q',
+    mods = 'CTRL|ALT',
+    action = act.SendString('exit\n'),
+  },
+  {
+    key = 'Enter',
+    mods = 'CTRL|ALT',
+    action = act.SendString('nvim\n'),
   }
 
 }
